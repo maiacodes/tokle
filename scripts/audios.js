@@ -35,11 +35,11 @@ let days = {
     stream_link: "https://www.tiktok.com/music/Banana-feat-Shaggy-6788784989656926981"
   },
   "26-5-2022": {
-    sound_url: "",
+    sound_url: "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/2b9808b7bc8b49c9981a99f4581a4476",
     cover_url: "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/204b9fd903a14cd2b6f97ebc835bed64~c5_200x200.jpeg",
     title: "You",
     artist: "Petit Biscuit",
-    stream_link: "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/2b9808b7bc8b49c9981a99f4581a4476"
+    stream_link: "https://open.spotify.com/track/4gRuC34ZpRcpVXxMXM1csQ?si=2884873c0c7e4cf8"
   },
   "27-5-2022": {
     sound_url: "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/6a21f6b2234c40bcacb6b20b16bafea4",
