@@ -1,10 +1,26 @@
 <template>
-  <div id="modal" class="modal" v-show="showModal">
+  <div id="modal" class="modal" v-show="modalState !== 'none'">
 
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close" v-on:click="$store.commit('setModal', 'none')">&times;</span>
-      <p>Some text in the Modal..</p>
+      <div v-show="modalState === 'info'">
+        Tokle is a game inspired by <a target="_blank" href="https://www.heardle.app">Heardle</a> and <a target="_blank" href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>.
+        <br><br>
+        The aim of the game? Listen to the audio and guess the cover art of the popular TikTok audio. Skipped or incorrect attempts unlock more of the audio, answer in as few tries as possible and share your score!
+        <br><br>
+        <u>Copyright notice</u><br>
+        Audios and cover art played/displayed here are short, low quality, 'previews' used for solely to illustrate the song in question. Audios and art are owned by their respective copyright owners, not us. We do not host the content in question ourselves.
+      </div>
+      <div v-show="modalState === 'donate'">
+        This project is by <a href="https://maia.codes" target="_blank">maia.codes</a>! I make fun web toys. If you really like Tokle, then you can <a target="_blank" href="https://ko-fi.com/maiacodes">buy me a coffee!</a>
+      </div>
+      <div v-if="modalState === 'copied'">
+        Copied to your clipboard!
+      </div>
+      <div v-if="modalState === 'shareError'">
+        Your browser isn't letting us bring up the sharing menu, so instead, try copying your results to the clipboard!
+      </div>
     </div>
 
   </div>
@@ -14,8 +30,8 @@
 export default {
   name: "Modal",
   computed: {
-    showModal(){
-      return this.$store.state.modal !== "none";
+    modalState(){
+      return this.$store.state.modal;
     }
   }
 }
@@ -37,6 +53,9 @@ export default {
 }
 
 /* Modal Content */
+.modal-content a {
+  color: white;
+}
 .modal-content {
   color: white;
   background-color: #3a3a3a;
