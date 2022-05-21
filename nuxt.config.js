@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Tokle',
+    title: 'Tokle — Guess the album cover!',
     htmlAttrs: {
       lang: 'en'
     },
@@ -13,14 +13,14 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'title', content: 'Tokle: Guess the album cover!' },
-      { name: 'description', content: 'The aim of the game? Listen to the audio and guess the cover art of the popular song. Skipped or incorrect attempts unlock more of the audio, answer in as few tries as possible and share your score!' },
+      { name: 'title', content: 'Tokle — Guess the album cover!' },
+      { name: 'description', content: 'Listen to the audio and guess the cover art of the popular song. Skipped or incorrect attempts unlock more of the audio, answer in as few tries as possible and share your score!' },
       { name: 'theme-color', content: '#232323' },
     //  Opengraph
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://tokle.app' },
-      { property: 'og:title', content: 'Tokle: Guess the album cover!' },
-      { property: 'og:description', content: 'The aim of the game? Listen to the audio and guess the cover art of the popular song. Skipped or incorrect attempts unlock more of the audio, answer in as few tries as possible and share your score!' },
+      { property: 'og:title', content: 'Tokle — Guess the album cover!' },
+      { property: 'og:description', content: 'Listen to the audio and guess the cover art of the popular song. Skipped or incorrect attempts unlock more of the audio, answer in as few tries as possible and share your score!' },
       { property: 'og:image', content: 'https://tokle.app/wordmark.png' },
     //  Twitter
       { property: 'twitter:image', content: 'https://tokle.app/logo.png' },
