@@ -28,12 +28,15 @@ export default {
   },
   methods: {
     share(sheet) {
-      let blocks = "";
-      for (let step = 0; step < this.skips; step++) {
-        if (step+1 === this.skips) {
-          blocks += "🟩"
-        } else {
-          blocks += "🟥"
+      let blocks = "🟥🟥🟥🟥";
+      if (this.correct) {
+        blocks = "";
+        for (let step = 0; step < this.skips; step++) {
+          if (step + 1 === this.skips) {
+            blocks += "🟩"
+          } else {
+            blocks += "🟥"
+          }
         }
       }
 
