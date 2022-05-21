@@ -40,6 +40,27 @@ let days = {
     title: "You",
     artist: "Petit Biscuit",
     stream_link: "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/2b9808b7bc8b49c9981a99f4581a4476"
+  },
+  "27-5-2022": {
+    sound_url: "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/6a21f6b2234c40bcacb6b20b16bafea4",
+    cover_url: "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/93b013ac1177491ebf1171bb086bdb3d~c5_200x200.jpeg",
+    title: "ZOOM",
+    artist: "Jessi",
+    stream_link: "https://www.tiktok.com/music/ZOOM-7084201528721950722"
+  },
+  "28-5-2022": {
+    sound_url: "https://sf77-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/444ec34781bf4a3499afd7a6f7d8ee03",
+    cover_url: "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/52574d1f2a3944d3b2938f891b13e7fd~c5_200x200.jpeg",
+    title: "Glad U Came",
+    artist: "Liilz",
+    stream_link: "https://www.tiktok.com/music/Glad-U-Came-feat-ZieZie-7070632434768807938"
+  },
+  "29-5-2022": {
+    sound_url: "https://sf77-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/be3445afcf674618bea460a62b5256b8",
+    cover_url: "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/4b5346fe02a74e0ba7b129168cc28101~c5_200x200.jpeg",
+    title: "In My Mind",
+    artist: "Never Dull",
+    stream_link: "https://www.tiktok.com/music/In-My-Mind-feat-Crystal-Waters-7079433374615784238"
   }
 }
 
