@@ -11,9 +11,16 @@
         <br><br>
         <u>Copyright notice</u><br>
         Audios and cover art played/displayed here are short, low quality, 'previews' used for solely to illustrate the song in question. Audios and art are owned by their respective copyright owners, not us. We do not host the content in question ourselves.
+        <br><br>
+        <u>Legal contact</u><br>
+        For all legal contact, please email <code>tokle@maia.codes</code>
       </div>
       <div v-show="modalState === 'donate'">
-        This project is by <a href="https://maia.codes" target="_blank">maia.codes</a>! I make fun web toys. If you really like Tokle, then you can <a target="_blank" href="https://ko-fi.com/maiacodes">buy me a coffee!</a>
+        This project is by <a href="https://maia.codes" target="_blank">maia.codes</a>! I make fun web toys.
+        <br><br>
+        Oh and by the way, this project is completely <a href="https://github.com/maiacodes/tokle">open source</a> so anyone can see the code!
+        <br><br>
+        But, If you really like Tokle, then you can <a target="_blank" href="https://ko-fi.com/maiacodes">buy me a coffee!</a>
       </div>
       <div v-if="modalState === 'copied'">
         Copied to your clipboard!
