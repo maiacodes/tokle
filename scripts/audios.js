@@ -106,7 +106,7 @@ export function getAudio() {
 }
 
 export function getTextDate(date) {
-  return `${date.getUTCDate()}-${date.getUTCMonth() + 1}-${date.getUTCFullYear()}`
+  return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`
 }
 
 function randomProperty(obj) {
