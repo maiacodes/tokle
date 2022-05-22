@@ -1,5 +1,5 @@
 <template>
-  <div id="modal" class="modal" v-show="modalState !== 'none'">
+  <div id="modal" class="modal" v-show="modalState !== 'none'" v-on:click="$store.commit('setModal', 'none')">
 
     <!-- Modal content -->
     <div class="modal-content">
