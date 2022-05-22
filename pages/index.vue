@@ -17,11 +17,33 @@
       </div>
       <Correct v-if="correct || ranOut" v-bind:audio="this.audio" />
       <SongInfo v-if="correct || ranOut" v-bind:audio="audio" />
+      <hr>
+      <div class="socials">
+        <p>Follow us!</p>
+        <a href="https://tiktok.com/@tokle.app" class="social-icon"><Icon name="tiktok-brands"></Icon></a>
+<!--        TODO: make discord server -->
+<!--        <a class="social-icon"><Icon name="discord-brands"></Icon></a>-->
+      </div>
     </div>
   </div>
 </template>
 
 <style>
+.social-icon {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 20px 10px 5px;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+}
+.socials {
+  text-align: center;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #1a1a1a;
+}
 .game {
   color: white;
 }
@@ -44,6 +66,7 @@
   cursor: pointer;
   border: none;
   float: none;
+  border-radius: 5px;
 }
 .playButton:disabled {
   background-color: #153317;

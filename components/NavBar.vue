@@ -8,11 +8,11 @@
     </div>
 
     <!-- Left-aligned links (default) -->
-    <a href="#" class="nav-button" v-on:click="$store.commit('setModal', 'donate')">☕️</a>
+    <a href="#" class="nav-button" v-on:click="$store.commit('setModal', 'donate')"><Icon name="mug-hot-solid" /></a>
 
     <!-- Right-aligned links -->
     <div class="topnav-right">
-      <a href="#" class="nav-button" v-on:click="$store.commit('setModal', 'info')">ℹ️</a>
+      <a href="#" class="nav-button" v-on:click="$store.commit('setModal', 'info')"><Icon name="info-solid" /></a>
     </div>
 
   </div>
